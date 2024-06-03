@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+p {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cerdos {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.h {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    font-size: 80px;
+}
+
+.hr2 {
+    width: 400px;
+    border: black solid 1px;
+}
+
+.hr {
+    border: black solid 1px;
+}
+
+.body {
+    background-color: rgb(59, 02, 09);
+}
+
+.titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 350px;
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 20px auto;
+    background-color: #9e9e9e;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.historia {
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+
+.hist {
+    font-family: "Cardo", serif;
+    font-weight: 100;
+    font-style: inherit;
+    font-size: 30px;
+}
+
+.dabiz {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 767px) {
+    .dabiz {
+        width: 100%;
+    }
+}
+.galeria {
+    display: flex;
+    width: 900px;
+    height: 430px;
+    margin: auto;
+}
+
+.galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+
+@media (max-width: 767px) {
+    .galeria {
+        width: 100%;
+        height: 300px;
+    }
+
+    .galeria img {
+        width: 100px;
+    }
+
+    .galeria img:hover {
+        width: 150px;
+    }
+}
+
+
+footer {
+    background-color: #D98C5F;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-content {
+
+    max-width: 960px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+@media (max-width: 767px) {
+    .receta {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .img img {
+        width: 100%;
+    }
+}

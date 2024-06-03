@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.body {
+    background-color: rgb(59, 02, 09);
+}
+
+h1{
+    text-align: center;
+}
+
+#registration-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #d81616;
+    border: 1px solid #630000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"], input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #900000;
+}
+
+button[type="submit"] {
+    background-color: #F23207;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #951d01;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #D98C5F;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin: 0;
+}
+.footer-content {
+
+    max-width: 960px;
+    margin: 0 auto;
+}
